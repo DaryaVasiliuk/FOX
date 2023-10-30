@@ -669,14 +669,6 @@ h5 {
 
 .bottom__text {
     padding: 30px 0;
-}
-
-.bottom__text-one,
-.bottom__text-three {
-    color: #A9A9AA;
-}
-
-.bottom__text {
     font-size: 14px;
     font-weight: 600;
     line-height: 20px;
@@ -698,7 +690,7 @@ h5 {
 
 @media (max-width: 1024px) { 
     .btn {
-        width: 15%;
+        width: 25%;
     }
 
     .header__nav {
@@ -776,6 +768,10 @@ h5 {
         justify-content: center;
     }
 
+    .carousel__img {
+        width: calc(100% / 2);
+    }
+
     .footer__body {
         align-items: center;
         flex-direction: column;    
@@ -799,10 +795,76 @@ h5 {
 
     .home__inner {
         flex-direction: column;
+        margin-top: 25%;
     }
+
+    .home__link {
+        flex-direction: row;
+        margin-top: 7%;
+    }
+
+    .comment__first-block {
+        flex-direction: column;
+        gap: 5vh;
+    }
+
+    .carousel__img {
+        width: calc(100% / 1);
+    }
+
 }
 
 @media (max-width: 480px) {
+    .home__title {
+        font-size: 90px;
+        line-height: 120px;
+
+    }
+
+    .home__link {
+        margin-top: 25%;
+    }
+
+    .together__title {
+        font-size: 32px;
+        line-height: 48px;
+        padding: 0 5%;
+    }
+
+    .together__btn {
+        width: 20vw;
+    }
+
+    .number__title {
+        font-size: 32px;
+    }
+
+    .number {
+        font-size: 60px;
+    }
+
+    .service__card-item {
+        width: 50vw;
+    }
+
+
+}
+
+@media (max-width: 414px) {
+
+.btn {
+    width: 35%;
+}
+.home__title {
+    font-size: 64px;
+    line-height: 90px;
+}
+
+.home__inner,
+.home__link {
+    margin-top: 50%;
+}
+
 
 }
 
