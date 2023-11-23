@@ -107,10 +107,6 @@ img {
     padding-top: 3vh;
 }
 
-/* .logo {
-    justify-content: center;
-} */
-
 .header__nav {
     display: flex;
     align-items: center;
@@ -122,6 +118,7 @@ img {
     font-size: 12px;
     font-weight: 600;
     line-height: 15px;
+    color: #fff;
 }
 
 .header__nav-item:hover {
@@ -486,6 +483,13 @@ h5 {
     min-height: 220px; 
 }
 
+.quote__container::before {
+    content: "”";
+    color: #FE390C;
+    font-size: 60px;
+    margin: 17px 0 23px;
+}
+
 .quote__text {
     font-size: 14px;
     font-weight: 500;
@@ -562,7 +566,6 @@ h5 {
 .contact__title {
     line-height: 20px;
     font-weight: 500;
-    margin-bottom: 9px ;
 }
 
 .contact__context  {
@@ -570,6 +573,10 @@ h5 {
     font-weight: 500;
     line-height: 17px;
     color: #A9A9AA;
+}
+
+.contact__context:hover {
+    color: #FE390C;
 }
 
 .link__block {
@@ -586,6 +593,10 @@ h5 {
     width: 42px;
     height: 42px;
     cursor: pointer;
+}
+
+.link__item:focus {
+    box-shadow: 0 0 20px #FE390C;
 }
 
 .link__item-svg {
@@ -652,7 +663,7 @@ h5 {
 }
 
 .input__form-big {
-    padding: 5px 15px ;
+    padding: 15px 15px ;
     color: #fff;
 }
 

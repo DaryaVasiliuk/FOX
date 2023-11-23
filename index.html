@@ -40,9 +40,9 @@
                 </a>
                 <div class="header__nav">
                     <a href="#" class="header__nav-item">HOME</a>
-                    <a href="#" class="header__nav-item">ABOUT</a>
-                    <a href="#" class="header__nav-item">SERVICE</a>
-                    <a href="#" class="header__nav-item">PORTFOLIO</a>
+                    <a href="#about-me" class="header__nav-item">ABOUT</a>
+                    <a href="#service" class="header__nav-item">SERVICE</a>
+                    <a href="#portfolio" class="header__nav-item">PORTFOLIO</a>
                 </div>
                 <button class="header__btn btn">
                     <p class="header__btn-text">
@@ -156,7 +156,7 @@
 
     <main class="main">
 
-        <section class="about__me">
+        <section class="about__me" id="about-me">
             <div class="container">
                 <div class="about__inner">
                     <div class="about__section about__section-one">
@@ -514,7 +514,7 @@
             </div>
         </section>
 
-        <section class="service">
+        <section class="service" id="service">
             <div class="container">
                 <div class="service__inner">
                     <div class="number__container service__number-container">
@@ -643,7 +643,7 @@
             </div>
         </section>
 
-        <section class="portfolio">
+        <section class="portfolio" id="portfolio">
             <div class="container">
                 <div class="portfolio__inner">
                     <div class="portfolio__top">
@@ -787,12 +787,12 @@
                                 <h3 class="number__title">testimonial</h3>
                             </div>
                         </div>
-                        <svg class="quote__svg" width="32" height="33" viewBox="0 0 32 33" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <!-- <svg class="quote__svg" width="32" height="33" viewBox="0 0 32 33" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M6.66662 23.2516H10.6666L13.3333 17.9183V9.91827H5.33328V17.9183H9.33328L6.66662 23.2516ZM19.9999 
                                 23.2516H23.9999L26.6666 17.9183V9.91827H18.6666V17.9183H22.6666L19.9999 23.2516Z" 
                                 fill="#FE390C"
                             />
-                        </svg>
+                        </svg> -->
                         <div class="quote__container">
                             <div class="quote__contant quote__contant-one">
                                 <p class="quote__text">
@@ -889,12 +889,12 @@
                             <div class="footer__block">
                                 <img class="footer__contact-img" src="./img/call.png" alt="">
                                 <div class="footer__block-min">
-                                    <h6 class="contact__title">
+                                    <h6 class="contact__title contact__title-phone">
                                         Phone
                                     </h6>
-                                    <p class="contact__context">
-                                        (219) 555-0114
-                                    </p>
+                                    <a href="tel:+333 555-0114" class="contact__context">
+                                        +333 555-0114
+                                    </a>
                                 </div>
                             </div>
                             <div class="footer__block">
@@ -903,9 +903,9 @@
                                     <h6 class="contact__title">
                                             Email
                                     </h6>
-                                    <p class="contact__context">
-                                            robertfox@example.com
-                                    </p>
+                                    <a class="contact__context" href="mailto:robertfox@mail.ru">
+                                        robertfox@mail.ru
+                                    </a>
                                 </div>
                             </div>
                             <div class="footer__block">
@@ -914,9 +914,9 @@
                                     <h6 class="contact__title">
                                             Address
                                     </h6>
-                                    <p class="contact__context">
-                                            4517 Washington Ave. Manchester, Kentucky 39495
-                                    </p>
+                                    <a href="https://www.google.com/maps" class="contact__context">
+                                        4517 Washington Ave. Manchester, Kentucky 39495
+                                    </a>
                                 </div>
                             </div>
                         </div>
