@@ -1,0 +1,65 @@
+.together__inner {
+    display: flex;
+    flex-direction: column;
+    background-image: url(../img/together-bg.jpg);
+    padding: 70px 0;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    gap: 2vh;
+    margin-top: -100px;
+}
+
+.together__title {
+    font-family: 'Anton', sans-serif;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 60px;
+}
+
+.together__btn {
+    background: #FE390C;
+}
+
+.together__btn-text {
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: 600;
+    font-size: 12px;
+}
+
+.download__container {
+    display: flex;
+    flex-direction: row;
+    font-weight: 600;
+    font-size: 14px;
+    color: #A9A9AA;
+    gap: 0.5vw;
+    cursor: pointer;
+}
+
+@media (max-width: 768px) {
+
+    .together__title {
+        text-align: center;
+    }
+
+    .together__btn {
+        width: 15vw;
+    }
+
+}
+
+@media (max-width: 480px) {
+
+    .together__title {
+        font-size: 32px;
+        line-height: 48px;
+        padding: 0 5%;
+    }
+
+    .together__btn {
+        width: 20vw;
+    }
+
+}

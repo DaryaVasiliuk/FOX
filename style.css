@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Montserrat:wght@500;600;700&display=swap');
+
+@import url(./css/header.css);
+@import url(./css/homePage.css);
+@import url(./css/aboutPage.css);
+@import url(./css/linkPage.css);
+@import url(./css/togetherPage.css);
+@import url(./css/servicePage.css);
+@import url(./css/portfolioPage.css);
+@import url(./css/testimonialPage.css);
+@import url(./css/footer.css);
+
+
+*, *::after, *::before  {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30px;
+    color: #fff;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+img {
+    object-fit: cover;
+}
+
+.btn {
+    border: 1px solid #FE390C;
+    border-radius: 4px;
+    width: 7vw;
+    height: 4vh;
+    cursor: pointer;
+} 
+
+.button__left-or-right {
+    display: flex;
+    gap: 2vw;
+}
+
+.button-left,
+.button-right {
+    border: none;
+    border-radius: 2px;
+    background-color: #FE390C;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+}
+
+.number {
+    color: #FE390C;
+    font-family: 'Anton', sans-serif;
+    font-size: 80px;
+    line-height: 120px;
+    letter-spacing: 1.6px;
+    text-transform: uppercase;
+}
+
+.number__container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 24px;
+}
+
+.number__title {
+    font-family: 'Anton', sans-serif;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 60px;
+    text-transform: uppercase;
+    letter-spacing: 0.8px;
+    color: #111214;
+}
+
+.container {
+    max-width: 1230px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.link__item {
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.10);
+    width: 42px;
+    height: 42px;
+    cursor: pointer;
+}
+
+.link__item:focus {
+    box-shadow: 0 0 20px #FE390C;
+}
+
+.link__item-svg {
+    display: block;
+    margin: 8px 10px;
+}
+
+@media (max-width: 1230px) {
+
+    .container {
+        margin: 0 8vw;
+    }
+
+}
+
+@media (max-width: 1024px) { 
+
+    .btn {
+        width: 25%;
+    }
+
+}
+
+@media (max-width: 480px) {
+
+    .number__title {
+        font-size: 32px;
+    }
+
+    .number {
+        font-size: 60px;
+    }
+
+}
+
+@media (max-width: 414px) {
+
+    .btn {
+        width: 35%;
+    }
+
+}
+
+@media (max-width: 320px) {
+
+}

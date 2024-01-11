@@ -1,0 +1,10 @@
+.link {
+    background-color: #F7F7F7;
+}
+
+.link__inner  {
+    display: flex;
+    justify-content: center;
+    gap: 8vw;
+    padding: 90px 0 190px 0;
+}
