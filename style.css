@@ -115,6 +115,10 @@ img {
     margin: 8px 10px;
 }
 
+.footer__number-title {
+    color: #fff;
+}
+
 @media (max-width: 1230px) {
 
     .container {

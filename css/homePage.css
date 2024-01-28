@@ -1,7 +1,7 @@
 .home__inner {
     display: flex;
     flex-direction: row;
-    margin-top: 30%;
+    margin-top: 25%;
     gap: 28vw;
     align-items: center;
 }
